@@ -1,9 +1,8 @@
 # sql-server-data-warehouse-project-1
-___________________________
 Le texte en anglais se trouve ci-dessous.
 ___________________________
 ENG
-___________________________
+
 Develop a data warehouse using SQL Server that includes ETL processes, data modelling and analytics. 
 This project consolidates customer, product and sales data and enables analytical reporting and supports data-driven decision-making.
 1. Build the Data Warehouse
@@ -19,7 +18,7 @@ Documentation:	Provide clear documentation of the data model to support both bus
 Objective: Develop SQL-based analytics to deliver detailed insights about customer behaviour, product performance and sales trends
 
 ________________________
---FR--
+FR
 
 Concevoir un entrepôt de données sous SQL Server intégrant des processus ETL, la modélisation et l'analyse des données . Ce projet consolide les données clients, produits et ventes, permet la production de rapports analytiques et facilite la prise de décision basée sur les données.
 
