@@ -1,11 +1,16 @@
 /*
 ===============================================================================
-DDL Script: Create Silver Tables
+DDL Script: Create Silver Tables / Créer les tableaux de la couche SILVER
 ===============================================================================
+(English Version Below)
+Objectif du script :
+Ce script crée des tables dans le schéma « silver », en supprimant les tables existantes le cas échéant.
+Exécutez ce script pour redéfinir la structure DDL des tables « bronze ».
+
 Script Purpose:
-    This script creates tables in the 'silver' schema, dropping existing tables 
-    if they already exist.
-	  Run this script to re-define the DDL structure of 'bronze' Tables
+This script creates tables in the 'silver' schema, dropping existing tables 
+If they already exist.
+Run this script to redefine the DDL structure of 'bronze' Tables
 ===============================================================================
 */
 
