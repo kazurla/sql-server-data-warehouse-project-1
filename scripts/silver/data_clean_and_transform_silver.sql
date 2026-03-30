@@ -1,6 +1,7 @@
 /*
 ----------------------------------------------
 SILVER LAYER DATA CLEANSING AND TRANSFORMATIONS
+(NETTOYAGE ET TRANSFORMATIONS DES DONNÉES DE LA COUCHE SILVER)
 ----------------------------------------------
 1. Check and Remove Duplicates or nulls in the primary key
 */
