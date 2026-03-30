@@ -1,0 +1,21 @@
+Data Warehouse Project
+Project Requirements
+Build the Data Warehouse
+Objective
+Develop a data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Specifications
+Data Sources:		Import data from source systems (ERP and CRM) provided as CSV files     
+Data Quality:		Clean and resolve data quality issues before analysis.
+Integration:		Combine both sources into a single data model that is designed for analytical queries.
+Scope:			Focus on the latest dataset only; historization of data is not required.
+Documentation:	Provide clear documentation of the data model to support both business stakeholders and analytics requests.	
+
+BI: Analytics and Reporting 
+Objective
+Develop SQL-based analytics to deliver detailed insights into:
+•	Customer behaviour
+•	Product performance
+•	Sales trends
+These trends empower stakeholders with key business metrics and enable them to take strategic decisions.
+
+
