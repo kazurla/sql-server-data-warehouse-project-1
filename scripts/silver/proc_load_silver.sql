@@ -1,20 +1,30 @@
 /*
 ===============================================================================
 Stored Procedure: Load Silver Layer (Bronze -> Silver)
+Procédure stockée : Charger la couche SILVER (Bronze -> Silver)
 ===============================================================================
-Script Purpose:
-    This stored procedure performs the ETL (Extract, Transform, Load) process to 
-    populate the 'silver' schema tables from the 'bronze' schema.
-	Actions Performed:
-		- Truncates Silver tables.
-		- Inserts transformed and cleansed data from Bronze into Silver tables.
-		
-Parameters:
-    None. 
-	  This stored procedure does not accept any parameters or return any values.
+(English version below)
+Objectif du script :
+Cette procédure stockée effectue le processus ETL (Extraction, Transformation, Chargement) pour
+remplir les tables du schéma « silver » à partir du schéma « bronze ».
+Actions effectuées :
+- Suppression des tables « silver ».
+- Insertion des données transformées et nettoyées du schéma « bronze » dans les tables « silver ».
+Paramètres :Aucun.
+Cette procédure stockée n'accepte aucun paramètre et ne renvoie aucune valeur.
+Exemple d'utilisation :
+EXEC Silver.load_silver;
 
+Script Purpose:
+This stored procedure performs the ETL (Extract, Transform, Load) process to 
+populate the 'silver' schema tables from the 'bronze' schema.
+Actions Performed:
+- Truncates Silver tables.
+- Inserts transformed and cleansed data from Bronze into Silver tables.	
+Parameters: None
+This stored procedure does not accept any parameters or return any values.
 Usage Example:
-    EXEC Silver.load_silver;
+EXEC Silver.load_silver;
 ===============================================================================
 */
 
